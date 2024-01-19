@@ -1,0 +1,1282 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./main.css" rel="stylesheet">
+  <style>
+    .corefeature {
+      background-size: 100% 100%;
+    }
+
+    .imageAnimation {
+      animation: 10s infinite linear imageAnimationstyle;
+    }
+
+    @keyframes imageAnimationstyle {
+      0% {
+        top: 0;
+      }
+
+      100% {
+        top: -50%;
+      }
+    }
+
+    .ctaBg {
+    background-size: 200% 100%;
+}
+  </style>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="bg-deepBlue ">
+    <div class="max-w-[1080px] mx-auto  items-center justify-between flex ">
+      <img src="https://codehelp-razorpay-clone.netlify.app/assets/logo.svg" alt="razorpay-logo" width="125px"
+        height="30px">
+
+      <ul class="lg:flex gap-6 hidden">
+        <li class="text-white hover:text-lightBlue py-7 font-mullish transition-all duration-300 relative group">
+          <a href="#">Payment</a>
+          <div class="w-full h-1 bg-lightBlue absolute bottom-0 hidden group-hover:block "></div>
+        </li>
+
+        <li class="text-white hover:text-lightBlue py-7 font-mullish transition-all duration-300 relative group">
+          <a href="#">Banking</a>
+          <div class="w-full h-1 bg-lightBlue absolute bottom-0 hidden group-hover:block "></div>
+        </li>
+
+        <li class="text-white hover:text-lightBlue py-7 font-mullish transition-all duration-300 relative group">
+          <a href="#">Corporate Card</a>
+        </li>
+
+        <li class="text-white hover:text-lightBlue py-7 font-mullish transition-all duration-300 relative group">
+          <a href="#">Payroll</a>
+        </li>
+
+        <li class="text-white hover:text-lightBlue py-7 font-mullish transition-all duration-300 relative group">
+          <a href="#">Resource</a>
+          <div class="w-full h-1 bg-lightBlue absolute bottom-0 hidden group-hover:block "></div>
+        </li>
+
+        <li class="text-white hover:text-lightBlue py-7 font-mullish transition-all duration-300 relative group">
+          <a href="#">Support</a>
+          <div class="w-full h-1 bg-lightBlue absolute bottom-0 hidden group-hover:block "></div>
+        </li>
+
+        <li class="text-white hover:text-lightBlue py-7 font-mullish transition-all duration-300 relative group">
+          <a href="#">Pricing</a>
+          <div class="w-full h-1 bg-lightBlue absolute bottom-0 hidden group-hover:block "></div>
+        </li>
+      </ul>
+
+      <div class="flex lg:gap-4 items-center gap-2 pr-3 ">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/india-flag.svg" alt="" class="hidden lg:visible">
+
+        <button class="bg-transparent text-white py-3 px-4 border rounded border-lightBlue">Log in</button>
+
+        <button
+          class="text-lightBlue bg-white py-4 px-3 rounded hover:text-blue-600 transition-all duration-200 hidden lg:visible">Sign
+          Up -></button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="feather feather-menu text-white text-xs cursor-pointer lg:hidden ">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero section -->
+
+  <div class="bg-deepBlue ">
+    <div class="lg:w-[1080px] w-10/12 flex lg:flex-row flex-col mx-auto justify-between items-center ">
+      <div class="max-w-[400px] space-y-8 my-16">
+        <h1 class=" text-[40px] font-bold font-mullish text-white leading-[1.2]">
+          Power your finance, grow your business
+        </h1>
+        <div class="w-6 h-1 bg-green-400"></div>
+        <div class="text-white text-lg opacity-70">
+          Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.
+        </div>
+        <button
+          class="text-white px-4 py-3 bg-lightBlue rounded-md font-bold hover:bg-lightBlue500 transition-all duration-200">Sign
+          Up Now</button>
+      </div>
+      <div class="lg:max-w-[680px] w-full">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/hero-illustration.jpg" alt="" class="w-full">
+      </div>
+    </div>
+  </div>
+  <div class="relative w-[100%]">
+    <img src="https://codehelp-razorpay-clone.netlify.app/assets/hero-shape.svg" alt=""
+      class="absolute w-full object-fill">
+  </div>
+
+
+
+  <!-- features section -->
+  <section class="relative mt-52 w-10/12 lg:max-w-[1080px] mx-auto  ">
+    <!-- heading -->
+    <div class="flex gap-5 flex-col">
+      <h2 class="font-bold text-center text-2xl font-mullish leading-[1.2]">Accept Payments with Razorpay Payment Suite
+      </h2>
+      <p class=" w-6 h-1 bg-greenLight mx-auto"></p>
+    </div>
+
+    <!-- content box -->
+    <div class="lg:max-w-[1080px] w-10/12 my-[80px] flex lg:flex-row flex-col rounded border border-gray-200 px-6 py-3">
+      <!-- left section -->
+      <div class="lg:w-[60%] ">
+        <h3 class="inline font-mullish text-xl md:text-[28px] lg:leading-10 md:max-w-[500px] max-w[190px] font-semibold">Supercharge your business with
+          the all‑powerful</h3><span class="text-lightBlue inline font-mullish text-xl md:text-[28px]"> Payment Gateway</span>
+
+
+        <ul class="space-y-2  my-10">
+          <li class="font-mullish flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>100+ Payment Methods</span>
+          </li>
+
+          <li class="font-mullish flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Industry Leading Success Rate</span>
+          </li>
+
+          <li class="font-mullish flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Superior Checkout Experience</span>
+          </li>
+
+          <li class="font-mullish flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Easy to Integrate</span>
+          </li>
+
+          <li class="font-mullish flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Instant Settlements from day 1</span>
+          </li>
+
+          <li class="font-mullish flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>In-depth Reporting and Insights</span>
+          </li>
+        </ul>
+
+        <div class="flex  md:flex-row items-start md:items-center flex-col-reverse w-full">
+          <button
+            class="bg-lightBlue300 p-4 rounded-md text-white font-bold hover:bg-lightBlue500 transition duration-200 w-full md:w-fit my-6 ">Sign
+            Up Now <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3 inline">
+              <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
+          </button>
+          <div class=" pl-3 text-lightBlue500 group ">
+            <a href="" class="group-hover:text-grayBlue transition-all duration-200 font-medium">Know more
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </a>
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <!-- right section -->
+      <div class="lg:max-w-[600px]  md:max-w-[400px] md:block  absolute right-0  hidden">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-suite.png" alt="" class="  ">
+      </div>
+    </div>
+
+
+    <!-- grid part -->
+
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 w-full gap-4">
+      <!-- card  -->
+      <div class=" w-full relative min-h-[15rem] cursor-pointer group">
+
+        <img src="https://razorpay.com/build/browser/static/payment-links.b311e082.svg" alt=""
+          class="bg-lightBlue rounded-full absolute right-3 top-3 w-12 h-12 group-hover:bg-lightBlue300 transition-all duration-200">
+        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200"
+          style="stroke-opacity: 0.15">
+          <path d="m 0 6 
+          a 6 6 0 0 1 6 -6 
+          h 250.32501220703125 
+          a 16 16 0 0 1 11 5 
+          l 77 77 
+          a 16 16 0 0 1 5 11 
+          v 126 
+          a 6 6 0 0 1 -6 6 
+          h -337.32501220703125 
+          a 6 6 0 0 1 -6 -6 
+          z" fill="#fff"></path>
+        </svg>
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/features-wave.svg" alt=""
+          class="absolute right-1 bottom-1 hidden group-hover:block transition duration-200">
+
+        <!-- text part -->
+        <div class="relative z-20 w-full h-full flex flex-col justify-between pl-5 py-6 pr-8 ">
+          <h3 class="text-2xl text-deepBlueHead font-bold font-mullish">Payment Links</h3>
+          <p class="text-grayText font-mullish">Share payment link via an email, SMS, messenger, chatbot etc. and get
+            paid immediately</p>
+          <a href=""
+            class="group-hover:text-grayBlue transition-all duration-200 font-medium  text-lightBlue500 group">Know more
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- card2 -->
+      <div class=" w-full relative min-h-[15rem] cursor-pointer group">
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-pages-icon.svg" alt=""
+          class="bg-lightBlue rounded-full absolute right-3 top-3 w-12 h-12 group-hover:bg-lightBlue300 transition-all duration-200">
+        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200"
+          style="stroke-opacity: 0.15">
+          <path d="m 0 6 
+          a 6 6 0 0 1 6 -6 
+          h 250.32501220703125 
+          a 16 16 0 0 1 11 5 
+          l 77 77 
+          a 16 16 0 0 1 5 11 
+          v 126 
+          a 6 6 0 0 1 -6 6 
+          h -337.32501220703125 
+          a 6 6 0 0 1 -6 -6 
+          z" fill="#fff"></path>
+        </svg>
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/features-wave.svg" alt=""
+          class="absolute right-1 bottom-1 hidden group-hover:block transition duration-200">
+
+        <!-- text part -->
+        <div class="relative z-20 w-full h-full flex flex-col justify-between pl-5 py-6 pr-8 ">
+          <h3 class="text-2xl text-deepBlueHead font-bold font-mullish">Payment Pages</h3>
+          <p class="text-grayText font-mullish">Take your store online instantly with zero coding. Accept international
+            & domestic payments</p>
+          <a href=""
+            class="group-hover:text-grayBlue transition-all duration-200 font-medium  text-lightBlue500 group">Know more
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- card3 -->
+      <div class=" w-full relative min-h-[15rem] cursor-pointer group">
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-buttons-icon.svg" alt=""
+          class="bg-lightBlue rounded-full absolute right-3 top-3 w-12 h-12 group-hover:bg-lightBlue300 transition-all duration-200">
+        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200"
+          style="stroke-opacity: 0.15">
+          <path d="m 0 6 
+          a 6 6 0 0 1 6 -6 
+          h 250.32501220703125 
+          a 16 16 0 0 1 11 5 
+          l 77 77 
+          a 16 16 0 0 1 5 11 
+          v 126 
+          a 6 6 0 0 1 -6 6 
+          h -337.32501220703125 
+          a 6 6 0 0 1 -6 -6 
+          z" fill="#fff"></path>
+        </svg>
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/features-wave.svg" alt=""
+          class="absolute right-1 bottom-1 hidden group-hover:block transition duration-200">
+
+        <!-- text part -->
+        <div class="relative z-20 w-full h-full flex flex-col justify-between pl-5 py-6 pr-8 ">
+          <h3 class="text-2xl text-deepBlueHead font-bold font-mullish">Payment Buttons</h3>
+          <p class="text-grayText font-mullish">Create, Copy & Collect With Payment Button. Collect one time or
+            subscription payments & more</p>
+          <a href=""
+            class="group-hover:text-grayBlue transition-all duration-200 font-medium  text-lightBlue500 group">Know more
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- card4 -->
+      <div class=" w-full relative min-h-[15rem] cursor-pointer group">
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/subscriptions-icon.svg" alt=""
+          class="bg-lightBlue rounded-full absolute right-3 top-3 w-12 h-12 group-hover:bg-lightBlue300 transition-all duration-200">
+        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200"
+          style="stroke-opacity: 0.15">
+          <path d="m 0 6 
+          a 6 6 0 0 1 6 -6 
+          h 250.32501220703125 
+          a 16 16 0 0 1 11 5 
+          l 77 77 
+          a 16 16 0 0 1 5 11 
+          v 126 
+          a 6 6 0 0 1 -6 6 
+          h -337.32501220703125 
+          a 6 6 0 0 1 -6 -6 
+          z" fill="#fff"></path>
+        </svg>
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/features-wave.svg" alt=""
+          class="absolute right-1 bottom-1 hidden group-hover:block transition duration-200">
+
+        <!-- text part -->
+        <div class="relative z-20 w-full h-full flex flex-col justify-between pl-5 py-6 pr-8 ">
+          <h3 class="text-2xl text-deepBlueHead font-bold font-mullish">Subscriptions</h3>
+          <p class="text-grayText font-mullish">Subscription plans with automated recurring transactions on various
+            payment modes.</p>
+          <a href=""
+            class="group-hover:text-grayBlue transition-all duration-200 font-medium  text-lightBlue500 group">Know more
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- card5 -->
+      <div class=" w-full relative min-h-[15rem] cursor-pointer group">
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/route-icon.svg" alt=""
+          class="bg-lightBlue rounded-full absolute right-3 top-3 w-12 h-12 group-hover:bg-lightBlue300 transition-all duration-200">
+        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200"
+          style="stroke-opacity: 0.15">
+          <path d="m 0 6 
+          a 6 6 0 0 1 6 -6 
+          h 250.32501220703125 
+          a 16 16 0 0 1 11 5 
+          l 77 77 
+          a 16 16 0 0 1 5 11 
+          v 126 
+          a 6 6 0 0 1 -6 6 
+          h -337.32501220703125 
+          a 6 6 0 0 1 -6 -6 
+          z" fill="#fff"></path>
+        </svg>
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/features-wave.svg" alt=""
+          class="absolute right-1 bottom-1 hidden group-hover:block transition duration-200">
+
+        <!-- text part -->
+        <div class="relative z-20 w-full h-full flex flex-col justify-between pl-5 py-6 pr-8 ">
+          <h3 class="text-2xl text-deepBlueHead font-bold font-mullish">Route</h3>
+          <p class="text-grayText font-mullish">Split incoming payments auto- matically to vendor’s accounts, manage
+            marketplace money flow...</p>
+          <a href=""
+            class="group-hover:text-grayBlue transition-all duration-200 font-medium  text-lightBlue500 group">Know more
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- card6 -->
+      <div class=" w-full relative min-h-[15rem] cursor-pointer group">
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/smart-collect-icon.svg" alt=""
+          class="bg-lightBlue rounded-full absolute right-3 top-3 w-12 h-12 group-hover:bg-lightBlue300 transition-all duration-200">
+        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200"
+          style="stroke-opacity: 0.15">
+          <path d="m 0 6 
+          a 6 6 0 0 1 6 -6 
+          h 250.32501220703125 
+          a 16 16 0 0 1 11 5 
+          l 77 77 
+          a 16 16 0 0 1 5 11 
+          v 126 
+          a 6 6 0 0 1 -6 6 
+          h -337.32501220703125 
+          a 6 6 0 0 1 -6 -6 
+          z" fill="#fff"></path>
+        </svg>
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/features-wave.svg" alt=""
+          class="absolute right-1 bottom-1 hidden group-hover:block transition duration-200">
+
+        <!-- text part -->
+        <div class="relative z-20 w-full h-full flex flex-col justify-between pl-5 py-6 pr-8 ">
+          <h3 class="text-2xl text-deepBlueHead font-bold font-mullish">Smart Collect</h3>
+          <p class="text-grayText font-mullish">Automatically reconcile incoming NEFT, RTGS, IMPS, UPI payments using
+            Virtual Accounts & UPI-IDs</p>
+          <a href=""
+            class="group-hover:text-grayBlue transition-all duration-200 font-medium  text-lightBlue500 group">Know more
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section 2 -->
+  <section
+    class="bg-[url('https://codehelp-razorpay-clone.netlify.app/assets/feature-section-2BG.svg')] bg-no-repeat bg-cover flex items-center pt-[280px] pb-[30rem] flex-col relative">
+    <h3 class="  text-white text-2xl font-bold pb-4">Explore Razorpay Business Banking</h3>
+    <div class="w-6 h-1 bg-green-400"></div>
+
+    <img src="https://codehelp-razorpay-clone.netlify.app/assets/x-flame-1.png" alt="" width="200px"
+      class="absolute left-14 top-[270px] z-0">
+    <img src="https://codehelp-razorpay-clone.netlify.app/assets/x-flame-2.png" alt=""
+      class="absolute right-12 top-[580px]">
+
+
+    <!-- content box -->
+    <div class="max-w-[1080px]  my-[80px] flex rounded border border-gray-200 p-6 relative z-10 bg-[#181c2e]">
+
+      <!-- left section -->
+      <div class="max-w-[540px] py-5 pl-4">
+        <h3 class="inline font-mullish text-[28px] leading-10 max-w-[500px] text-white font-bold ">Manage your company’s
+          finances with</h3>
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/razorpayX.svg" alt="" class="inline items-center">
+        <span class="text-greenLight inline font-mullish text-3xl"> Business Banking</span>
+
+
+        <ul class="space-y-2  my-10">
+          <li class="font-mullish text-white flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Open a fully digital current account</span>
+          </li>
+
+          <li class="font-mullish text-white flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Automate payables & compliment paymentst</span>
+          </li>
+
+          <li class="font-mullish text-white flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Simplify and track spends with Corporate cards</span>
+          </li>
+
+          <li class="font-mullish text-white flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>View financial insights at a glance</span>
+          </li>
+
+        </ul>
+        <div class="flex relative md:items-center md:flex-row sm:flex-col-reverse sm:items-start ">
+          <button
+            class="bg-lightBlue300 p-4 rounded-md text-white font-bold hover:bg-lightBlue500 relative transition duration-200 flex justify-center items-center md:w-fit w-full my-6 pr-16">Sign
+            Up
+            <div class="absolute h-16 w-10 bg-greenLight skew-x-[20deg] right-5 flex items-center"><svg
+                viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+                <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+              </svg></div>
+          </button>
+
+          <div class="inline pl-3 text-lightBlue500 group ">
+            <a href="" class="group-hover:text-grayBlue transition-all duration-200 font-medium">Know more
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </a>
+            <i></i>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- right section -->
+      <div class="w-[540px] hidden md:block ">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/buisness-banking.png" alt=""
+          class="max-w-[540px] object-cover absolute right-0 bottom-0">
+      </div>
+    </div>
+
+    <!-- grid section -->
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 max-w-[1080px] gap-4 ">
+      <!-- card  -->
+      <div class=" w-full relative min-h-[15rem] cursor-pointer group">
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/current-icon.svg" alt=""
+          class="bg-lightBlue rounded-full absolute right-3 top-3 w-12 h-12 group-hover:bg-lightBlue300 transition-all duration-200">
+        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          class="stroke-1 stroke-[#525a76] h-full w-full absolute z-0 featureCardSVG transition-all duration-200"
+          style="stroke-opacity: 0.8">
+          <path d="m 0 6 
+            a 6 6 0 0 1 6 -6 
+            h 250.32501220703125 
+            a 16 16 0 0 1 11 5 
+            l 77 77 
+            a 16 16 0 0 1 5 11 
+            v 126 
+            a 6 6 0 0 1 -6 6 
+            h -337.32501220703125 
+            a 6 6 0 0 1 -6 -6 
+            z" fill="#181C2E"></path>
+        </svg>
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/features-wave.svg" alt=""
+          class="absolute right-1 bottom-1 hidden group-hover:block transition duration-200">
+
+        <!-- text part -->
+        <div class="relative z-20 w-full h-full flex flex-col justify-between pl-5 py-6 pr-8 ">
+          <h3 class="text-2xl text-white font-bold font-mullish">Payment Links</h3>
+          <p class="text-grayText font-mullish">Share payment link via an email, SMS, messenger, chatbot etc. and get
+            paid immediately</p>
+          <a href="" class=" transition-all duration-200 font-medium  text-lightBlue500 group">Know more
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200 inline">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- card2 -->
+      <div class=" w-full relative min-h-[15rem] cursor-pointer group">
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-pages-icon.svg" alt=""
+          class="bg-lightBlue rounded-full absolute right-3 top-3 w-12 h-12 group-hover:bg-lightBlue300 transition-all duration-200">
+        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          class="stroke-1 stroke-[#525a76] h-full w-full absolute z-0 featureCardSVG transition-all duration-200 group-hover:drop-shadow-2xl"
+          style="stroke-opacity: 0.8">
+          <path d="m 0 6 
+            a 6 6 0 0 1 6 -6 
+            h 250.32501220703125 
+            a 16 16 0 0 1 11 5 
+            l 77 77 
+            a 16 16 0 0 1 5 11 
+            v 126 
+            a 6 6 0 0 1 -6 6 
+            h -337.32501220703125 
+            a 6 6 0 0 1 -6 -6 
+            z" fill="#181C2E"></path>
+        </svg>
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/features-wave.svg" alt=""
+          class="absolute right-1 bottom-1 hidden group-hover:block transition duration-200">
+
+        <!-- text part -->
+        <div class="relative z-20 w-full h-full flex flex-col justify-between pl-5 py-6 pr-8 ">
+          <h3 class="text-2xl text-white font-bold font-mullish">Payment Pages</h3>
+          <p class="text-grayText font-mullish">Take your store online instantly with zero coding. Accept international
+            & domestic payments</p>
+          <a href="" class="transition-all duration-200 font-medium  text-lightBlue500 group">Know more
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-chevron-right w-5 h-5 text-lightBlue500  transition-all duration-200 inline">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- card3 -->
+      <div class=" w-full relative min-h-[15rem] cursor-pointer group">
+
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-buttons-icon.svg" alt=""
+          class="bg-lightBlue rounded-full absolute right-3 top-3 w-12 h-12 group-hover:bg-lightBlue300 transition-all duration-200 ">
+        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          class="stroke-1 stroke-[#525a76] h-full w-full absolute z-0 featureCardSVG transition-all duration-200"
+          style="stroke-opacity: 0.8">
+          <path d="m 0 6 
+            a 6 6 0 0 1 6 -6 
+            h 250.32501220703125 
+            a 16 16 0 0 1 11 5 
+            l 77 77 
+            a 16 16 0 0 1 5 11 
+            v 126 
+            a 6 6 0 0 1 -6 6 
+            h -337.32501220703125 
+            a 6 6 0 0 1 -6 -6 
+            z" fill="#181C2E"></path>
+        </svg>
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/features-wave.svg" alt=""
+          class="absolute right-1 bottom-1 hidden group-hover:block transition duration-200">
+
+        <!-- text part -->
+        <div class="relative z-20 w-full h-full flex flex-col justify-between pl-5 py-6 pr-8 ">
+          <h3 class="text-2xl text-white font-bold font-mullish">Payment Buttons</h3>
+          <p class="text-grayText font-mullish">Create, Copy & Collect With Payment Button. Collect one time or
+            subscription payments & more</p>
+          <a href="" class=" transition-all duration-200 font-medium  text-lightBlue500 group">Know more
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-chevron-right w-5 h-5 text-lightBlue500  transition-all duration-200 inline">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="md:flex hidden items-center p-9 border border-[#525a76] max-w-[1080px] mt-10 flex-wrap ">
+      <p class="text-xl text-white">Check out the live demo to learn how RazorpayX works. </p>
+      <span class="text-xl text-white font-bold">No sign-up required!</span>
+
+      <button
+        class="bg-lightBlue300 p-4 rounded-md text-white font-bold hover:bg-lightBlue500 relative transition duration-200 flex items-center ml-5 my-6 pr-16">Check
+        out the demo
+        <div class="absolute h-16 w-10 bg-greenLight skew-x-[20deg] right-4 flex items-center"><svg viewBox="0 0 24 24"
+            focusable="false" class="w-[14px] h-[14px] ml-3">
+            <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+          </svg></div>
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- section 3 -->
+  <section>
+
+    <!-- grid  -->
+    <div class="max-w-[1080px] grid lg:grid-cols-3 md:grid-cols-2  mx-auto my-10 gap-x-3 gap-y-10">
+      <!-- text part -->
+      <div class="my-auto flex  justify-center md:justify-start">
+        <h3 class="text-4xl text-deepBlueHead font-mullish leading-[3rem]  font-bold">New in the <div
+            class="text-lightBlue500 inline md:block">Razorpay </div>Product Suite</h3>
+      </div>
+
+      <!-- card 1 -->
+      <div class="w-full flex flex-col gap-4 p-10 hover:scale-105 transition-all duration-200">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/razorpayXicon.svg" alt=""
+          class="bg-lightBlue500 rounded-full w-10">
+        <h3 class="font-semibold text-xl">Corporate Cards</h3>
+        <p class="text-grayText font-mullish">Simplify your recurring, international and team expenses with savings on
+          every spend. Save upto 10 lacs every month.</p>
+        <a href="" class="text-lightBlue500 transition-all duration-200 font-medium">Know more
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+      <!-- card 2 -->
+      <div class="w-full flex flex-col gap-4 p-10 hover:scale-105 transition-all duration-200">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/autopay-icon.svg" alt=""
+          class="bg-lightBlue500 rounded-full w-10">
+        <h3 class="font-semibold text-xl">UPI AutoPays</h3>
+        <p class="text-grayText font-mullish">Allow customers to set up recurring payments using UPI Apps.</p>
+        <a href="" class="text-lightBlue500 transition-all duration-200 font-medium">Know more
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+      <!-- card 3 -->
+      <div class="w-full flex flex-col gap-4 p-10 hover:scale-105 transition-all duration-200">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/magic-checkout.svg" alt=""
+          class="bg-lightBlue500 rounded-full w-10">
+        <h3 class="font-semibold text-xl">Magic Checkout</h3>
+        <p class="text-grayText font-mullish">Improve your order conversion rates & reduce return-to-origins. Boost your
+          business by 20%</p>
+        <a href="" class="text-lightBlue500 transition-all duration-200 font-medium">Know more
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+      <!-- card 4 -->
+      <div class="w-full flex flex-col gap-4 p-10 hover:scale-105 transition-all duration-200">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-button.svg" alt=""
+          class="bg-lightBlue500 rounded-full w-10">
+        <h3 class="font-semibold text-xl">Payment Button</h3>
+        <p class="text-grayText font-mullish">Accept payments on your website, in less than 5 minutes. No developer
+          needed.</p>
+        <a href="" class="text-lightBlue500 transition-all duration-200 font-medium">Know more
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+      <!-- card 5 -->
+      <div class="w-full flex flex-col gap-4 p-10 hover:scale-105 transition-all duration-200">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-settlement-icon.svg" alt=""
+          class="bg-lightBlue500 rounded-full w-10">
+        <h3 class="font-semibold text-xl">Payment Button</h3>
+        <p class="text-grayText font-mullish">Accept payments on your website, in less than 5 minutes. No developer
+          needed.</p>
+        <a href="" class="text-lightBlue500 transition-all duration-200 font-medium">Know more
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-chevron-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 inline">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- section 4 -->
+  <section
+    class="w-full bg-[url(https://codehelp-razorpay-clone.netlify.app/assets/core-features-sectionBg.svg)] bg-no-repeat bg-center bg-cover pt-[20rem] pb-[12rem] corefeature">
+
+    <div class="max-w-[1080px] w-10/12  flex flex-col items-center mx-auto ">
+      <h3 class="  text-white text-2xl font-bold pb-4">Features</h3>
+      <div class="w-6 h-1 bg-green-400"></div>
+      <p class="text-white text-center my-4 max-w-[450px]">Empower your business with all the right tools to accept
+        online payments and provide the best customer experience</p>
+
+      <!-- grid -->
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-[2rem] py-6">
+        <!-- card 1 -->
+        <div class="flex flex-col gap-4 w-full">
+          <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-activation-icon.svg" alt="" width="50px">
+          <h3 class="text-xl text-white font-mullish font-bold">Instant Activation</h3>
+          <p class=" text-white opacity-[0.87]">Get activated and transact within 2 minutes. Completely online
+            onboarding with minimum documentation.</p>
+        </div>
+        <!-- card 2 -->
+        <div class="flex flex-col  flex-wrap gap-4 w-full">
+          <img src="https://codehelp-razorpay-clone.netlify.app/assets/easy-integration.svg" alt="" width="50px">
+          <h3 class="text-xl text-white font-mullish font-bold">Easy Integration</h3>
+          <p class=" text-white opacity-[0.87]">With plugins for all major platforms and languages, integrate and go
+            live with Razorpay in less than an hour.</p>
+        </div>
+        <!-- card 3 -->
+        <div class="flex flex-col flex-wrap gap-4 w-full">
+          <img src="https://codehelp-razorpay-clone.netlify.app/assets/api-driven-icon.svg" alt="" width="50px">
+          <h3 class="text-xl text-white font-mullish font-bold">API Driven</h3>
+          <p class=" text-white opacity-[0.87]">Build your business for scale with our complete API-driven automation
+            that requires zero manual intervention.</p>
+        </div>
+        <!-- card 4 -->
+        <div class="flex flex-col flex-wrap gap-4 w-full">
+          <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-modes.svg" alt="" width="50px">
+          <h3 class="text-xl text-white font-mullish font-bold">100+ payment modes</h3>
+          <p class=" text-white opacity-[0.87]">Offer your customers the luxury of all payment modes including
+            Credit/Debit cards, Netbanking, UPI, Wallets etc.</p>
+        </div>
+        <!-- card 5 -->
+        <div class="flex flex-col  flex-wrap gap-4 w-full">
+          <img src="https://codehelp-razorpay-clone.netlify.app/assets/simple-pricing.svg" alt="" width="50px">
+          <h3 class="text-xl text-white font-mullish font-bold">Simple Pricing</h3>
+          <p class=" text-white opacity-[0.87]">Our innovative payment solutions with competitive pricing make payments
+            simpler.</p>
+        </div>
+        <!-- card 6 -->
+        <div class="flex flex-col flex-wrap gap-4 w-full">
+          <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-activation-icon.svg" alt="" width="50px">
+          <h3 class="text-xl text-white font-mullish font-bold">Best in Industry Support</h3>
+          <p class=" text-white opacity-[0.87]">Always available email, phone and chat based support to help you in your
+            every step.</p>
+        </div>
+        <!-- card 7 -->
+        <div class="flex flex-col  flex-wrap gap-4 w-full">
+          <img src="https://codehelp-razorpay-clone.netlify.app/assets/dashboard-reporting-icon.svg" alt=""
+            width="50px">
+          <h3 class="text-xl text-white font-mullish font-bold">Dashboard Reporting</h3>
+          <p class=" text-white opacity-[0.87]">Real-time data and insights on your Razorpay Dashboard to make informed
+            business decisions.</p>
+        </div>
+        <!-- card 8 -->
+        <div class="flex flex-col  flex-wrap gap-4 w-full">
+          <img src="https://codehelp-razorpay-clone.netlify.app/assets/secure-icon.svg" alt="" width="50px">
+          <h3 class="text-xl text-white font-mullish font-bold">Secure</h3>
+          <p class=" text-white opacity-[0.87]">PCI DSS Level 1 compliant solution which removes your burden of
+            regulatory compliance.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- section 5 -->
+  <section>
+
+    <div class="max-w-[1080px] w-10/12 flex flex-col md:flex-row mx-auto  items-center ">
+      <!-- left side -->
+      <div class="flex flex-col gap-4">
+        <h3 class="text-2xl text-deepBlueHead font-bold">Join the 50,00,000+ businesses using Razorpay</h3>
+        <div class="w-6 h-1 bg-greenLight"></div>
+        <p>We make it easier for you to focus on building great products while we work on simplifying your payments.
+          Become one of us by joining thousands of our happy users and simplify the online payment experience for your
+          customers.</p>
+        <p>Focus on your business while we handle the complexities of payments for you.</p>
+      </div>
+
+      <!-- right side -->
+      <div class="h-[500px] w-[100%] overflow-y-hidden relative ">
+        <div class="h-[150px] w-full absolute top-0 z-20" style="background: linear-gradient(180deg, #f4f8ff, #fff0);">
+        </div>
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/comanies.png" alt="" width="500px"
+          class="z-10 absolute h-auto object-cover imageAnimation ">
+        <div class="h-[150px] absolute bottom-0 z-20 w-full" style="background: linear-gradient(0deg, #f4f8ff, #fff0);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section 6 -->
+  <section>
+    <div class="max-w-[1300px] w-10/12 flex flex-col gap-4 items-center mx-auto my-20">
+
+      <h3 class="text-2xl text-deepBlueHead font-bold text-center">An Experience <br>
+        People Love to Talk About</h3>
+
+      <div class="h-1 w-5 bg-greenLight"></div>
+
+      <div class="flex  w-full relative items-center justify-center gap-[150px] my-11">
+        <!-- left button -->
+        <button class="absolute left-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-chevron-left stroke-[5px] w-6 h-6 md:w-10 md:h-10 text-gray-400">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <div class="flex flex-col lg:flex-row w-full lg:justify-evenly justify-around items-center ">
+          <!-- left section -->
+          <div>
+            <img src="https://codehelp-razorpay-clone.netlify.app/assets/testimonial.jpg" alt=""
+              class=" rounded-lg max-w-[320px]">
+          </div>
+
+          <!-- right section -->
+          <div class="max-w-[400px] lg:flex flex-col hidden ">
+            <p class="text-3xl font-thin">Readymade Closed Wallet Solution For Quick Refunds</p>
+            <a href="" class="underline italic font-light decoration-1">learn More</a>
+            <h4 class="text-2xl font-bold">Lorem Ipsum</h4>
+            <p>CEO, XYZ Engineering Company</p>
+            <img src="https://codehelp-razorpay-clone.netlify.app/assets/fake-company-logo.png" alt="" class="w-[80px]">
+          </div>
+
+          <!-- right section for mobile -->
+          <div class="lg:hidden my-4 flex flex-col items-center gap-4">
+            <h4 class="text-2xl font-bold">Lorem Ipsum</h4>
+            <p>CEO, XYZ Engineering Company</p>
+            <img src="https://codehelp-razorpay-clone.netlify.app/assets/fake-company-logo.png" alt="" class="w-[80px]">
+            <div>
+              <p class="text-3xl font-thin max-w-[300px] ">Readymade Closed Wallet Solution For Quick Refunds</p>
+              <a href="" class="underline italic font-light decoration-1">learn More</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- right button -->
+        <button class="absolute right-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-chevron-right stroke-[5px] w-6 h-6 md:w-10 md:h-10 text-gray-400">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <div class="lg:flex gap-3 hidden ">
+        <div class="bg-gray-300 h-3 w-3 rounded-full"></div>
+        <div class="bg-lightBlue300 h-3 w-3 rounded-full"></div>
+        <div class="bg-gray-300 h-3 w-3 rounded-full"></div>
+        <div class="bg-gray-300 h-3 w-3 rounded-full"></div>
+        <div class="bg-gray-300 h-3 w-3 rounded-full"></div>
+        <div class="bg-gray-300 h-3 w-3 rounded-full"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- section 6 -->
+  <section class="bg-[url(https://codehelp-razorpay-clone.netlify.app/assets/CTABg.svg)] min-h-[530px] ctaBg w-full h-full bg-no-repeat bg-center ">
+
+    <div class="flex justify-between max-w-[1080px] w-10/12 mx-auto py-[10rem]">
+      <!-- left side -->
+      <div class="flex flex-col gap-4">
+        <h3 class="text-3xl text-white">Supercharge your business with Razorpay</h3>
+        <div class="h-1 w-5 bg-greenLight"></div>
+        <p class="text-white max-w-[440px]">Sign up now to experience the future of payments and offer your customers
+          the best checkout experience.</p>
+        <ul class="flex gap-x-20 my-6 gap-y-5 flex-wrap ">
+          <li class="flex gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight ">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <div class="text-white ">Quick Onboarding</div>
+          </li>
+          <li class="flex gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <div class="text-white">Access to entire product suite</div>
+          </li>
+          <li class="flex gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <div class="text-white">API access</div>
+          </li>
+          <li class="flex gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-check text-greenLight">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <div class="text-white">24x7 supportg</div>
+          </li>
+        </ul>
+
+        <button>
+          <div
+            class="bg-white text-lightBlue  flex items-center justify-center w-[120px] px-4 py-3 font-bold rounded hover:text-lightBlue500 transition duration-200">
+            Sing Up
+            <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+              <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
+          </div>
+        </button>
+      </div>
+
+      <!-- right side -->
+      <div class="hidden lg:block">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/ctaImg.svg" alt="">
+      </div>
+    </div>
+
+  </section>
+
+
+  <footer>
+    <div class="flex justify-between max-w-[1080px] w-10/12 flex-col lg:flex-row mx-auto my-20">
+      <!--left section  -->
+      <div class="flex flex-col gap-4 items-start md:max-w-[260px] ">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/logo-dark.svg" alt="" class="h-6">
+
+        <p class="text-gray-500 text-sm">Razorpay is the only payments solution in India that allows businesses to
+          accept,
+          process and disburse payments with its product suite. It gives you access to all payment modes including
+          credit card, debit card, netbanking, UPI and popular wallets including JioMoney, Mobikwik, Airtel Money,
+          FreeCharge, Ola Money and PayZapp.</p>
+
+        <p class="text-gray-500 text-sm">RazorpayX supercharges your business banking experience, bringing
+          effectiveness,
+          efficiency, and excellence to all financial processes. With RazorpayX, businesses can get access to
+          fully-functional current accounts, supercharge their payouts and automate payroll compliance.</p>
+
+        <p class="text-gray-500 text-sm">Manage your marketplace, automate bank transfers, collect recurring payments,
+          share
+          invoices with customers and avail working capital loans - all from a single platform. Fast forward your
+          business with Razorpay.</p>
+
+        <p class="text-gray-500 text-xs">Disclaimer: The RazorpayX powered Current Account and VISA corporate credit
+          card are provided by RBI licensed banks. Your RazorpayX powered account is provided by our partner bank, in
+          accordance with RBI regulations. RazorpayX itself is not a bank and doesn't hold or claim to hold a banking
+          license.</p>
+
+        <h5 class="text-gray-600 text-lg">SUBSCRIBE TO OUR NEWSLETTER</h5>
+
+        <form class="relative bg-white w-[260px] mt-2 mb-4">
+          <input placeholder="Your email address" class="pr-16 font-mullish border-gray-300 outline-lightBlue focus:outline-lightBlue placeholder:text-sm py-2 px-4 border rounded-sm transition-all duration-200" fdprocessedid="2vm2ni">
+          <button class="h-[90%] bg-white absolute right-[1.5px] top-1/2 -translate-y-1/2 z-10 font-mullish text-sm font-bold text-lightBlue300 flex rounded-sm items-center hover:text-lightBlue500 transition-all duration-200" fdprocessedid="bhvz">
+            Subscribe
+            <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+              <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
+          </button>
+        </form>
+        
+        <div class="flex gap-2">
+          <img src="https://codehelp-razorpay-clone.netlify.app/assets/footer-certificate-1.png" alt="" class="h-14">
+          <img src="https://codehelp-razorpay-clone.netlify.app/assets/footer-certificate-2.jpg" alt="" class="h-20">
+        </div>
+      </div>
+
+      <!-- right section -->
+      <div class="flex flex-col md:flex-row gap-2">
+        <!-- col 1 -->
+        <div>
+
+          <div class="flex flex-col gap-2 flex-nowrap m-2">
+            <h5 class="font-bold text-gray-600 ">BANKING PLUS</h5>
+            <ul class="flex flex-col gap-2">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">RazorpayX</a> </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Current Accounts</a>
+              </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Payouts</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Payout Links</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Corporate Credit
+                  Card</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">View Live Demo <span
+                    class="bg-green-500 px-1 py-[2px] rounded-sm text-white">New</span></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">LENDING</h5>
+            <ul class="flex flex-col gap-2 ">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Razorpay Capital</a>
+              </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Instant Settlements</a>
+              </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Working Capital
+                  Loans</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Marketplace Instant
+                  Settlements</a></li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">RISK & FRAUD</h5>
+            <ul class="flex flex-col gap-2">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Thirdwatch</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">PrePay CoD <span
+                    class="bg-green-500 px-1 py-[2px] rounded-sm text-white">New</span></a></li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">BECOME A PARTNER</h5>
+            <ul class="flex flex-col gap-2">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Refer and Earn</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Onboarding APIs </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">MORE</h5>
+            <ul class="flex flex-col gap-2">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Route</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Invoices</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Freelancer Payments</a>
+              </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">International</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Flash Checkout</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">UPI</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">ePOS</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Checkout Demo</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">RazorpayX Payroll</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <!-- col 2 -->
+        <div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">ACCEPT PAYMENTS</h5>
+            <ul class="flex flex-col gap-2">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Payment Gateway</a>
+              </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Payment Pages</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Payment Links</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">QR Codes</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Subscriptions</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Smart Collect</a> </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">DEVELOPERS</h5>
+            <ul class="flex flex-col gap-2">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Docs</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Integrations</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">API Reference</a></li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">RESOURCES</h5>
+            <ul class="flex flex-col gap-2">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Blog</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Customer Stories</a>
+              </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Events</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Chargeback Guide</a>
+              </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Settlement Guide</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">SOLUTIONS</h5>
+            <ul class="flex flex-col gap-2">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Education</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">E-commerce</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Saas</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">BFSI</a></li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">FREE TOOLS</h5>
+            <ul class="flex flex-col gap-2">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">GST Calculator</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Online TDS Payment</a>
+              </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">GST Number Search <span
+                    class="bg-green-500 px-1 py-[2px] rounded-sm text-white">New</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- col 3 -->
+        <div>
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">COMPANY</h5>
+            <ul class="flex flex-col gap-2 ">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">About Us</a> </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Careers <span
+                    class="bg-green-500 px-1 py-[2px] rounded-sm text-white">We're hiring!</span></a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Terms of Use</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Privacy Policy</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Grievance Redressal</a>
+              </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Responsible
+                  Disclosure</a> </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Partners</a> </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">White Papers</a> </li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Corporate
+                  Information</a> </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">HELP & SUPPORT</h5>
+            <ul class="flex flex-col gap-2 ">
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Support</a></li>
+              <li class="text-lightBlue hover:text-gray-600 transition duration-200"><a href="#">Knowledge base</a></li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">FIND US ONLINE</h5>
+            <div class="flex gap-3">
+              <img src="https://codehelp-razorpay-clone.netlify.app/assets/facebook-icon.svg" alt="" height="24px"
+                width="24px">
+              <img src="https://codehelp-razorpay-clone.netlify.app/assets/twitter-icon.svg" alt="" height="24px"
+                width="24px">
+              <img src="https://codehelp-razorpay-clone.netlify.app/assets/instagram-icon.svg" alt="" height="24px"
+                width="24px">
+              <img src="https://codehelp-razorpay-clone.netlify.app/assets/github-icon.svg" alt="" height="24px"
+                width="24px">
+              <img src="https://codehelp-razorpay-clone.netlify.app/assets/linkedin-icon.svg" alt="" height="24px"
+                width="24px">
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-2  m-2">
+            <h5 class="font-bold text-gray-600">REGD. OFFICE ADDRESS</h5>
+            <p>Razorpay Software Private Limited,</p>
+            <p>1st Floor, SJR Cyber,</p>
+            <p>22 Laskar Hosur Road, Adugodi,</p>
+            <p>Bengaluru, 560030,</p>
+            <p>Karnataka, India</p>
+            <p>CIN: U72200KA2013PTC097389</p>
+          </div>
+
+          <div>
+            <p>© Razorpay 2022</p>
+            <p>All Rights Reserved</p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
